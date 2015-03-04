@@ -2,15 +2,15 @@ class MZRPresentationView < UIView
   attr_accessor :image, :color
 
   def touchViews
-  	@touchViews ||= []
+    @touchViews ||= []
   end
 
   def self.sharedInstance
-  	@sharedInstance ||= MZRPresentationView.alloc.init
+    @sharedInstance ||= MZRPresentationView.alloc.init
   end
   
   def initWithFrame(frame)
-  	super
+    super
     
     self.clipsToBounds = false
     
