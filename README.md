@@ -1,5 +1,4 @@
-# presentation-gem
-PresentationKit for RubyMotion
+# PresentationKit for RubyMotion
 
 ![Gif](https://github.com/morizotter/MZRPresentationKit/blob/master/presentation.gif)
 
