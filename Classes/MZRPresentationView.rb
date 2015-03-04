@@ -15,7 +15,6 @@ class MZRPresentationView < UIView
 
       UIDevice.currentDevice.beginGeneratingDeviceOrientationNotifications()
       NSNotificationCenter.defaultCenter.addObserver(self, selector: "orientationDidChangeNotification:", name: UIDeviceOrientationDidChangeNotification, object: nil)
-      NSNotificationCenter.defaultCenter.addObserver(self, selector: "applicationDidBecomeActiveNotification:", name: UIApplicationDidBecomeActiveNotification, object: nil)
     end
   end
 
@@ -25,10 +24,6 @@ class MZRPresentationView < UIView
 
   def initWithCoder(decoder)
     fatalError("initWithCoder: has not been implemented")
-  end
-
-  def applicationDidBecomeActiveNotification(notification)
-    #UIApplication.sharedApplication.keyWindow.swizzle
   end
 
   def orientationDidChangeNotification(notification)
