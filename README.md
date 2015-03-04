@@ -14,6 +14,10 @@ Add this somewhere in your AppDelegate:
 MZRPresentationView.start
 ```
 
+## Contributions
+
+Don't hesitate to fork and pull. Contributions welcome!
+
 ## Credits
 
 See https://github.com/morizotter/MZRPresentationKit for more details.
